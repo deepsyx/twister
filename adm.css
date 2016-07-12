@@ -1,0 +1,48 @@
+body,html
+	{
+	background-color: #E5E5E5;
+	}
+
+.main
+	{
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	background-color: #ffffff;
+	}
+	
+.left
+	{
+	padding: 15px;
+	width:150px;
+	height:auto;
+	float:left;
+	border: solid 0px #000000;
+	}
+
+.center
+	{
+	padding: 15px;
+	float:left;
+	width:540px;
+	height:auto;
+	}
+	
+.menu
+	{
+	margin-top: 2px;
+	width: 130px;
+	height: 23px;
+	padding: 3px;
+	background-color: #E5E5E5;
+	}
+.menu:hover
+	{
+	background-color: #C0C0C0;
+	}
+	
+#men
+{
+	text-decoration: none;
+	color: #000000;
+}

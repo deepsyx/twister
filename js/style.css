@@ -1,0 +1,332 @@
+/* By Vikt0r   */
+
+body,html
+{
+background-color: #8cbeff;
+padding:0;
+margin:0 auto;
+}
+
+.lenta
+{
+padding: 3px;
+background-image: url(images/lenta.png);
+width: 854px;
+height: 16px;
+}
+
+.multiple_s
+{
+width: 150px;
+}
+
+#deisvie
+{
+z-index:9999; 
+position: absolute;
+width: 410px;
+background-color: #ffffff;
+border: solid 1px #ABABAB;
+display: none;
+}
+
+.lenta_chat
+{
+padding: 3px;
+background-image: url(images/lenta.png);
+width: 535px;
+height: 16px;
+margin-top: 10px;
+}
+
+.main
+{
+margin-left:auto;
+margin-right:auto;
+width:860px;
+height:auto;
+padding:5px;
+text-align:left;
+}
+
+.statusi
+{
+width: 18px;
+height: 18px;
+border: 0px;
+}
+
+.rname
+{
+width: 500px;
+height: 25px;
+padding: 6px;
+background-color: #ffffff;
+}
+
+
+.search_posts
+{
+text-decoration: underline;
+color: black;
+}
+
+.main_p
+{
+margin-left:auto;
+margin-right:auto;
+width:860px;
+height:auto;
+padding:5px;
+text-align:left;
+}
+
+.myinfo
+{
+width: 858px;
+height: 85px;
+background-color: #77a2d9;
+float: center;
+margin-left: 1px;
+}
+
+.myinfo_chat
+{
+width: 541px;
+height: 85px;
+background-color: #77a2d9;
+float: center;
+}
+
+.cavatar
+{
+width: 541px;
+height: 300px;
+background-color: #77a2d9;
+float: center;
+}
+
+.users
+{
+
+overflow-y: scroll;
+width: 627px;
+height: 340px;
+background-color: white;
+padding: 5px;
+float: left;
+}
+
+.allinfos
+{
+width: 860px;
+height: 345px;
+}
+
+
+
+.indiinfo
+{
+margin-left: 10px;
+float: left;
+width: 200px;
+height: 340px;
+background-color: white;
+border: solid 1px #999999;
+text-align: center;
+padding: 5px;
+}
+
+.search
+{
+overflow-y: scroll;
+width: 850px;
+height: 22px;
+background-color: white;
+border: solid 1px grey;
+padding: 5px;
+}
+
+
+.cchat
+{
+background-color: white;
+width: 150px;
+height: 150px;]
+float: left;
+border: solid 1px grey;
+}
+
+.button
+{
+width: 800px;
+height: 25px;
+background-image: url(images/abonati.png);
+background-repeat: no-repeat;
+}
+
+.lenta_info
+{
+padding: 3px;
+}
+
+.statusselect 
+{
+background-repeat: no-repeat;
+background-color: white;
+}
+
+.abonati
+{
+text-decoration: none;
+color: black;
+}
+
+
+.loginpole
+{
+background-color: white;
+width: 600px;
+margin-top: 10px;
+//color: #00aff0;
+border: solid blue 1px;
+}
+
+.welcome
+{
+font-size: 20pt;
+color: #00aff0;
+font-family: arial;
+}
+
+#divlogin form {
+    margin: 0;
+	font-family: "Arial";
+    padding: 5px 8px;
+}
+
+#l_right,
+.formLabel {
+    font-size: 13px;
+    color: #666;
+    display: block;
+    padding: 10px 0 7px 0;
+}
+
+#divlogin form .field {
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 218px;
+}
+#signin_submit {
+    background: url(images/bg-btn-blue.png) repeat-x scroll 0 0 #3399dd;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px;
+    border: 1px solid #3399dd;
+    color: #FFF;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0 5px 0 0;
+    padding: 4px 10px 5px;
+    text-shadow: 0 -1px 0 #3399dd;
+}
+#signin_submit:focus, #signin_submit:hover {
+    cursor: pointer;
+    background-position: 0 -5px;
+}
+
+#mask {
+position:absolute;
+left:0;
+top:0;
+z-index:9000;
+background-color:#000;
+display:none;
+}
+
+#boxes .window {
+position:absolute;
+left:0;
+top:0;
+width:380px;
+height:200px;
+display:none;
+z-index:9999;
+padding:20px;
+}
+
+#boxes #dialog {
+width:375px;
+height:203px;
+padding:10px;
+background-color:#ffffff;
+}
+
+#boxes #dialog1 {
+width:375px;
+height:203px;
+}
+
+#dialog1 .d-header {
+background:url(images/login-header.png) no-repeat 0 0 transparent;
+width:375px;
+height:150px;
+}
+
+.mod_info
+{
+width: 500px;
+height: 300px;
+background-color: red;
+display:none;
+position:absolute;
+border: solid 3px grey;
+background-color: #ffffff;
+}
+
+#dialog1 .d-header input {
+position:relative;
+top:60px;
+left:100px;
+border:2px solid #EB0873;
+height:22px;
+width:200px;
+font-size:15px;
+padding:5px;
+margin-top:4px;
+}
+
+#dobavi {
+background-color: #ffffff;
+border: solid #000000 2px;
+}
+
+
+.status_clicks
+{
+width: 20px;
+height: 20px;
+border: 0px;
+margin-left: 5px;
+}
+
+.overflo
+{
+overflow-y: scroll;
+width:370px;
+height: 130px;
+}
+
+#draggable {
+position:absolute;
+width: 300px;
+height: 150px;
+background: silver;
+display:none;
+z-index:9999;
+}
+
+.poluchavam
+{
+background-color: #ffffff;
+}
